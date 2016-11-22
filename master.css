@@ -52,7 +52,7 @@ ul.blueheader li.right {
 }*/
 
 #circleblue{
-  margin-top: -650px;
+  margin-top: -670px;
 
 }
 div#personaltitle{
@@ -63,13 +63,26 @@ div#personaltitle{
   opacity: .6;
   margin-left: 30%;
 }
+
 #name{
 margin-top: -500px;
 margin-bottom: 500px;
-margin-left: 50%;
+margin-left: 40%;
   align-items: center;
   color: white;
   z-index:90;
+  position: absolute;
+}
+#namej{
+  font-size: 65px;
+  margin-left:-15%;
+  margin-top:20%;
+  font-style: bold;
+}
+#namef{
+  font-size: 40px;
+  margin-left: -19%;
+  margin-top: -8%;
 }
 div.parallax1 {
     background-image: url("images/aspen-maroon-bells.jpg");
@@ -153,11 +166,44 @@ div.obj{
   background-size: 50%;
   background-position: right;
 }
+#education{
+  font-size: 45px;
+  margin-top: -8%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+.educa{
+  font-size: 30px;
+  margin-top: 4%;
+}
 .skillscolumn{
   columns: 3;
+  text-align: center;
+  margin-right: 4%;
+  margin-left: 2%;
+  /*break-inside: avoid-column;*/
+  break-inside: avoid;
+}
+li{
+  break-inside: avoid-column;
+}
+.projectstitle{
+  text-align: center;
+}
+#fewproj{
+  font-size: 60px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 550px;
 }
 #skillstitle{
   align: center;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 40px;
+  color: white;
+  text-decoration:underline;
 }
 .projectsimg{
   height:300px;
@@ -175,7 +221,7 @@ div.obj{
 div.parallax4 {
   background-image: url("images/union-station.jpg");
   display: flex;
-  columns: 2;
+  /*columns: 2;*/
   min-height: 400px;
   margin: 0;
   padding:0;
@@ -199,7 +245,7 @@ div.parallax3 {
   background-size: cover;
 }
 div.parallax5 {
-  background-image: url("images/aspen-maroon-bells.jpg");
+  background-image: url("images/snow-forest-trees-winter.jpeg");
   display: flex;
   columns: 2;
   min-height: 400px;
@@ -223,7 +269,12 @@ div.descmywinssite{
 }
 .contactform{
   color: white;
+  display: flex;
+  flex-direction: row;
 }
+/*input{
+  flex-direction: row;
+}*/
 .furthercontact{
   /*background-color: #58AC91;*/
   background-color: white;
@@ -240,12 +291,66 @@ div.descmywinssite{
 #sitemap{
   margin-left: 5%;
 }
+#sociallinks{
+  margin-left: 33%;
+}
 i{
   color: white;
   align-content: center;
+  margin-left: 1.5%;
+  padding-top: 1%;
+  padding-bottom:1%;
 }
 i:hover{
   color:#757575;
+}
+.downarrow{
+color: white;
+margin-top: -13px;
+margin-bottom: 60px;
+font-size: 80px;
+margin-left: 46.8%;
+}
+#titlecontact{
+  /*color:#58AC91;*/
+  color: #275F4D;
+  font-size: 50px;
+  margin-left: 10%;
+}
+/*snow*/
+#snow{
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 50%;
+	left: 0;
+	position: absolute;
+	/*top: 0;*/
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
 footer{
   height: 30px;
