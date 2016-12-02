@@ -214,6 +214,7 @@ li{
   background-color: #4B927C;
   /*background-color: #8DA1F7;*/
   font-size:36px;
+  overflow: hidden;
 }
 .socialicons{
   height:10%;
@@ -246,6 +247,29 @@ div.parallax3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+div.projectimages{
+  display:flex;
+}
+div.projscreenshot {
+  padding-left: 1.5%;
+  text-align: center;
+  margin-top: -250px;
+}
+div.projscreenshot2 {
+  padding-left: 1.5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  /*margin-top: -250px;*/
+}
+.projtitle{
+  text-align: center;
+  /*text-decoration:underline;*/
+}
+.projimgsize{
+width: 450px;
+height: 300px;
 }
 div.parallax5 {
   background-image: url("images/snow-forest-trees-winter.jpeg");
